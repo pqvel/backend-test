@@ -15,5 +15,5 @@ app.get("/api/products", (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`get products http://localhost:3000/api/products`);
 });
