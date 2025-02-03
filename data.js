@@ -1,3 +1,26 @@
+/**
+ * @typedef {Object} Product
+ * @property {number} id - Идентификатор продукта.
+ * @property {string} title - Название продукта.
+ * @property {number} price - Цена продукта.
+ * @property {string} image - URL изображения продукта.
+ * @property {Characteristic} characteristics - Характеристики продукта.
+ */
+/**
+ * @typedef {Object} Characteristic
+ * @property {string} country - Страна производства.
+ * @property {string} brand - Бренд.
+ * @property {string} dossage - Дозировка.
+ * @property {string} releaseForm - Форма выпуска.
+ * @property {string} storageTemperature - Температура хранения.
+ * @property {number} quantityPerPackage - Количество в упаковке.
+ * @property {string} expirationDate - Срок годности.
+ * @property {boolean} isByPrescription - Требуется ли рецепт.
+ * @property {string} manufacturer - Производитель.
+ */
+/**
+ * @type {Product[]}
+ */
 export const data = [
   {
     id: 1,
